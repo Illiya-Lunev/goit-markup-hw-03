@@ -42,7 +42,13 @@ p {
   outline: 2px solid tomato;
 }
 /* Навигация сайта Студия-Потфолио */
+.main-nav {
+  display: flex;
+}
+
 .site-nav {
+  display: flex;
+
   color: var(--primery-text-color);
 }
 .site-nav .link {
@@ -78,7 +84,9 @@ p {
 }
 
 /* контакты */
-
+.contact {
+  display: flex;
+}
 .contact-link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -98,6 +106,8 @@ p {
 }
 .hero .title {
   margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--white-color);
 
   font-weight: 900;
@@ -130,6 +140,8 @@ p {
 /* Особености */
 
 .features-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -146,6 +158,8 @@ p {
 /* Наши работы */
 
 .work-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -155,6 +169,8 @@ p {
 
 /* Наша Команда */
 .team .title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -163,6 +179,7 @@ p {
 }
 
 .team-title {
+  margin-bottom: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
