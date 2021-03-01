@@ -14,6 +14,8 @@
 /* Утилиты*/
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link-style {
   text-decoration: none;
@@ -21,8 +23,15 @@
 .address-style {
   font-style: normal;
 }
-
-/* Макет студии */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 /* Контейтер геометрии макета */
 .contanier {
   width: 1230px;
@@ -88,6 +97,7 @@
   text-align: center;
 }
 .hero .title {
+  margin-top: 0;
   color: var(--white-color);
 
   font-weight: 900;
