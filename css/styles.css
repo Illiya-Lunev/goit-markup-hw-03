@@ -34,7 +34,7 @@ p {
 }
 /* Контейтер геометрии макета */
 .contanier {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -42,16 +42,27 @@ p {
   outline: 2px solid tomato;
 }
 /* Навигация сайта Студия-Потфолио */
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .main-nav {
   display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 80px;
 }
 
 .site-nav {
   display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
 
   color: var(--primery-text-color);
 }
 .site-nav .link {
+  margin-right: 50px;
+
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -65,6 +76,10 @@ p {
 
 /*Лого */
 .logo {
+  margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+
   color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -86,8 +101,12 @@ p {
 /* контакты */
 .contact {
   display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .contact-link {
+  margin-right: 50px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -101,6 +120,8 @@ p {
 
 /* Герой */
 .hero {
+  margin-top: 50px;
+  min-height: 600px;
   background: #2f303a;
   text-align: center;
 }
