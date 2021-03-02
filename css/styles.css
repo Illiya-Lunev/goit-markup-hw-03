@@ -60,9 +60,12 @@ p {
 
   color: var(--primery-text-color);
 }
-.site-nav .link {
-  margin-right: 50px;
 
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.site-nav .link {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -104,9 +107,11 @@ p {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-.contact-link {
-  margin-right: 50px;
+.contact .item + .item {
+  margin-left: 50px;
+}
 
+.contact-link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -126,6 +131,7 @@ p {
   text-align: center;
 }
 .hero .title {
+  padding-top: 195px;
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -135,6 +141,7 @@ p {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .hero-button {
