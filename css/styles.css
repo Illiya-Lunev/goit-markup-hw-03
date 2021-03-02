@@ -167,8 +167,21 @@ p {
 }
 /* Особености */
 
+.features {
+  padding-top: 42px;
+}
+.features-list {
+  display: flex;
+}
+.features .item {
+  width: 270px;
+}
+.features .item + .item {
+  margin-left: 30px;
+}
+
 .features-title {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -185,6 +198,11 @@ p {
 }
 /* Наши работы */
 
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .work-title {
   margin-bottom: 50px;
 
@@ -194,9 +212,19 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.work-list {
+  display: flex;
+}
+
+.work-list .item + .item {
+  margin-left: 30px;
+}
 
 /* Наша Команда */
 .team {
+  padding-bottom: 94px;
+  text-align: center;
+
   background: #f5f4fa;
 }
 .team .title {
@@ -211,6 +239,7 @@ p {
 
 .team-title {
   margin-top: 30px;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -218,7 +247,17 @@ p {
   letter-spacing: 0.03em;
 }
 
+.team-flex {
+  display: flex;
+}
+
+.team-flex .item + .item {
+  margin-left: 30px;
+}
+
 .team-text {
+  padding-bottom: 30px;
+
   color: var(--title-text-color);
   font-weight: normal;
   font-size: 16px;
