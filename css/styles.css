@@ -168,6 +168,9 @@ p {
 }
 
 /* Наша Команда */
+.team {
+  background: #f5f4fa;
+}
 .team .title {
   margin-bottom: 50px;
 
@@ -179,7 +182,8 @@ p {
 }
 
 .team-title {
-  margin-bottom: 30px;
+  margin-top: 30px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
