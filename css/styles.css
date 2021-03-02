@@ -101,6 +101,29 @@ p {
   color: var(--white-color);
 }
 
+.logo-footer {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo:focus {
+  color: var(--primery-text-color);
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+.logo-color-footer {
+  color: var(--white-color);
+}
+
 /* контакты */
 .contact {
   display: flex;
@@ -282,6 +305,13 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.footer-list {
+  padding-top: 9px;
+  padding-bottom: 60px;
+}
+.footer-list .item {
+  padding-bottom: 9px;
 }
 
 /* Макет Портолио */
