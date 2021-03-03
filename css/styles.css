@@ -32,6 +32,20 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 /* Контейтер геометрии макета */
 .contanier {
   width: 1200px;
@@ -39,7 +53,7 @@ p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 /* Навигация сайта Студия-Потфолио */
 
@@ -51,9 +65,10 @@ p {
 }
 
 .site-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
 
   color: var(--primery-text-color);
 }
@@ -76,9 +91,9 @@ p {
 
 /*Лого */
 .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
 
   color: #000000;
   font-family: Raleway, sans-serif;
@@ -123,9 +138,9 @@ p {
 
 /* контакты */
 .contact {
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
   margin-left: auto;
 }
 .contact .item + .item {
@@ -146,18 +161,17 @@ p {
 
 /* Герой */
 .hero {
-  margin-top: 50px;
-  padding-bottom: 215px;
+  padding-top: 200px;
+  padding-bottom: 280px;
   background: #2f303a;
   text-align: center;
 }
 .hero .title {
-  padding-top: 195px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
 
-  width: 696px;
+  max-width: 696px;
 
   color: var(--white-color);
   align-content: center;
@@ -191,7 +205,7 @@ p {
 /* Особености */
 
 .features {
-  padding-top: 42px;
+  padding-top: 94px;
 }
 .features-list {
   display: flex;
@@ -204,7 +218,7 @@ p {
 }
 
 .features-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -351,9 +365,6 @@ p {
 }
 
 /* Наши Проекты */
-.portfolio .title {
-  visibility: hidden;
-}
 
 .portfolio-list .portfolio-title {
   padding: 20px 24px 4px 24px;
