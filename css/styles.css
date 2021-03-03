@@ -39,7 +39,7 @@ p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 /* Навигация сайта Студия-Потфолио */
 
@@ -49,8 +49,6 @@ p {
 .main-nav {
   display: flex;
   justify-content: space-between;
-  text-align: center;
-  height: 80px;
 }
 
 .site-nav {
@@ -129,6 +127,7 @@ p {
   display: flex;
   margin-top: 32px;
   margin-bottom: 32px;
+  margin-left: auto;
 }
 .contact .item + .item {
   margin-left: 50px;
