@@ -34,6 +34,8 @@ p {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -118,8 +120,8 @@ img {
 
 .logo-footer {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+
+  margin-bottom: 20px;
 
   color: #000000;
   font-family: Raleway, sans-serif;
@@ -256,12 +258,15 @@ img {
 }
 .work-list {
   display: flex;
+  margin-left: -30px;
 }
-
-.work-list .item + .item {
+.work-list .item {
+  flex-basis: calc(100%-30px / 3);
   margin-left: 30px;
 }
-
+.card-thumb {
+  display: block;
+}
 /* Наша Команда */
 .team {
   padding-bottom: 94px;
@@ -270,6 +275,7 @@ img {
   background: #f5f4fa;
 }
 .team .title {
+  padding-top: 94px;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -280,9 +286,6 @@ img {
 }
 
 .team-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -291,23 +294,30 @@ img {
 
 .team-flex {
   display: flex;
+  margin-left: -30px;
 }
-
-.team-flex .item + .item {
+.team-flex .item {
+  flex-basis: calc(100%-30px / 3);
   margin-left: 30px;
 }
 
 .team-text {
-  padding-bottom: 30px;
-
+  padding-top: 10px;
   color: var(--title-text-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #ffffff;
+}
 /* Подвал Студио-портфолио*/
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
@@ -319,6 +329,7 @@ img {
   letter-spacing: 0.03em;
 }
 .footer .link {
+  padding: 0;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
@@ -326,11 +337,10 @@ img {
   letter-spacing: 0.03em;
 }
 .footer-list {
-  padding-top: 9px;
-  padding-bottom: 60px;
+  margin-top: 9px;
 }
 .footer-list .item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 /* Макет Портолио */
