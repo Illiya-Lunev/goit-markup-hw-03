@@ -94,6 +94,10 @@ img {
   color: var(--accent-color);
 }
 
+.site-nav .current {
+  color: var(--accent-color);
+}
+
 /*Лого */
 .logo {
   padding-top: 24px;
@@ -162,7 +166,8 @@ img {
   letter-spacing: 0.02em;
 }
 .contact .contact-link:hover,
-.contact .contact-link:focus {
+.contact .contact-link:focus,
+.contact .contact-link:active {
   color: var(--accent-color);
 }
 
