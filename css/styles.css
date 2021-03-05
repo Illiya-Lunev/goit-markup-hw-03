@@ -270,13 +270,13 @@ img {
 
 /* Наша Команда */
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
   text-align: center;
 
   background: #f5f4fa;
 }
 .team .title {
-  padding-top: 94px;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -392,11 +392,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-bottom: -30px;
+  margin-top: -30px;
 }
 .portfolio-list .item {
   margin-left: 30px;
-  margin-bottom: 30px;
+  margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
 
